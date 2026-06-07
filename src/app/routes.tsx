@@ -14,6 +14,11 @@ import Logos from "./../pages/Logo";
 import MetaAds from "./../pages/MetaAds";
 import Reels from "./../pages/Reels";
 
+import InformationalImages from "./../pages/InformationalImages";
+import PromotionalImages from "./../pages/PromotionalImages";
+import SpecialDaysImages from "./../pages/SpecialDaysImages";
+import ThematicImages from "./../pages/ThematicImages";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +32,10 @@ export const router = createBrowserRouter([
       { path: "my-work/carousels", Component: Carousels },
       { path: "my-work/ebooks", Component: Ebooks },
       { path: "my-work/images", Component: Images },
+      { path: "my-work/images/informational", Component: InformationalImages },
+      { path: "my-work/images/promotional", Component: PromotionalImages },
+      { path: "my-work/images/special-day", Component: SpecialDaysImages },
+      { path: "my-work/images/thematic", Component: ThematicImages },
       { path: "my-work/infographics", Component: Infographics },
       { path: "my-work/logos", Component: Logos },
       { path: "my-work/meta-ads", Component: MetaAds },

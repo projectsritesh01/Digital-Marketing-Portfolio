@@ -21,9 +21,6 @@ export default function Reels() {
               Your browser does not support the video tag.
             </video>
 
-            <h3 className="font-semibold mt-4">
-              {item.title}
-            </h3>
           </div>
         ))}
       </div>

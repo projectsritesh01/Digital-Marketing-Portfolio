@@ -22,9 +22,6 @@ export default function MetaAds() {
               className="w-full h-56 object-cover rounded-lg"
             />
 
-            <h3 className="font-semibold mt-4">
-              {item.title}
-            </h3>
           </div>
         ))}
       </div>
